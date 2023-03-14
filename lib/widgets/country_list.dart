@@ -57,7 +57,7 @@ Widget countryList(BuildContext context) {
                           itemCount: state.searchCountries.length,
                           itemBuilder: (context, index) {
                             return countryListItem(
-                                context, state.countries[index]);
+                                context, state.searchCountries[index]);
                           },
                         ),
                       )
